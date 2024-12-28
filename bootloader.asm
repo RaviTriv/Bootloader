@@ -15,7 +15,7 @@ int 0x10
 
 mov  ah,  09h 
 mov  al,  "O" 
-mov  bx,  100b
+mov  bx,  110b
 mov  cx,  01h 
 int 0x10
 mov  ah, 0Eh
@@ -23,7 +23,7 @@ int  10h
 
 mov  ah,  09h 
 mov  al,  "S" 
-mov  bx,  100b
+mov  bx,  0011
 mov  cx,  01h 
 int 0x10
 mov  ah, 0Eh
